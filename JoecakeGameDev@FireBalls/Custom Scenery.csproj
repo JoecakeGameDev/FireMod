@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FA17F423-2365-4230-88E5-BD736956F809}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>ClassLibrary</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>Custom_Scenery</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Parkitect_Data\Managed\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\Parkitect_Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>..\..\Parkitect_Data\Managed\UnityEngine.UI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".gitignore" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="mod.json" />
+    <None Include="README.md" />
+    <None Include="scenery.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CustomScenery\Decorators\GridDecorator.cs" />
+    <Compile Include="CustomScenery\Decorators\GridSubdivisionDecorator.cs" />
+    <Compile Include="CustomScenery\Decorators\HeightDecorator.cs" />
+    <Compile Include="CustomScenery\Decorators\IDecorator.cs" />
+    <Compile Include="CustomScenery\Decorators\NameDecorator.cs" />
+    <Compile Include="CustomScenery\Decorators\PriceDecorator.cs" />
+    <Compile Include="CustomScenery\Decorators\RecolorableDecorator.cs" />
+    <Compile Include="CustomScenery\Decorators\SnapToCenterDecorator.cs" />
+    <Compile Include="CustomScenery\Decorators\TypeDecorator.cs" />
+    <Compile Include="CustomScenery\Decorators\Type\FenceDecorator.cs" />
+    <Compile Include="CustomScenery\Decorators\Type\LampDecorator.cs" />
+    <Compile Include="CustomScenery\Decorators\Type\SeatingAutoDecorator.cs" />
+    <Compile Include="CustomScenery\Decorators\Type\DecoDecorator.cs" />
+    <Compile Include="CustomScenery\Decorators\Type\SeatingDecorator.cs" />
+    <Compile Include="CustomScenery\Decorators\Type\TrashBinDecorator.cs" />
+    <Compile Include="CustomScenery\Main.cs" />
+    <Compile Include="CustomScenery\SceneryLoader.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>

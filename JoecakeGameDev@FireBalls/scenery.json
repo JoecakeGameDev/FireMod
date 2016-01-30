@@ -1,0 +1,129 @@
+﻿{
+    "Medium Fire Vent": {
+		"model": "FireVent 1",
+		"type": "deco",
+		"price": 40.0,
+		"gridSubdivision": 4.0,
+		"snapCenter": false
+	}
+	
+    "Large Fire Vent": {
+		"model": "FireVent 2",
+		"type": "deco",
+		"price": 60.0,
+		"gridSubdivision": 4.0,
+		"snapCenter": false
+	}
+	
+	"Small Fire Vent": {
+		"model": "FireVent 3",
+		"type": "deco",
+		"price": 60.0,
+		"gridSubdivision": 4.0,
+		"snapCenter": false
+	}
+	
+	"Smoke Emmiter": {
+		"model": "SmokeVent 1",
+		"type": "deco",
+		"price": 60.0,
+		"gridSubdivision": 4.0,
+		"snapCenter": false
+	}
+	
+	"Smoke Vent": {
+		"model": "SmokeVent 2",
+		"type": "deco",
+		"price": 60.0,
+		"gridSubdivision": 4.0,
+		"snapCenter": false
+	}
+	
+	"Camp Fire": {
+		"model": "CampFire",
+		"type": "deco",
+		"price": 60.0,
+		"gridSubdivision": 1.0,
+		"snapCenter": false
+	}
+	
+	"Smoke Machine": {
+		"model": "SmokeMachine",
+		"type": "deco",
+		"price": 120.0,
+		"gridSubdivision": 1.0,
+		"snapCenter": false
+	}
+	
+	"Boric Acid Fire (GREEN)": {
+		"model": "FireVent Acid",
+		"type": "deco",
+		"price": 60.0,
+		"gridSubdivision": 1.0,
+		"snapCenter": false
+	}
+	
+	"Pulsing Smoke": {
+		"model": "SmokeVent Pulse",
+		"type": "deco",
+		"price": 50.0,
+		"gridSubdivision": 1.0,
+		"snapCenter": false
+	}
+	
+	"Blue Fire": {
+		"model": "FireVent Copper",
+		"type": "deco",
+		"price": 50.0,
+		"gridSubdivision": 1.0,
+		"snapCenter": false
+	}
+	
+	"Yellow Fire": {
+		"model": "FireVent Sodium",
+		"type": "deco",
+		"price": 50.0,
+		"gridSubdivision": 1.0,
+		"snapCenter": false
+	}
+	
+	"Red Fire": {
+		"model": "FireVent Lithium",
+		"type": "deco",
+		"price": 50.0,
+		"gridSubdivision": 1.0,
+		"snapCenter": false
+	}
+	
+	"Purple Fire": {
+		"model": "FireVent Potasium",
+		"type": "deco",
+		"price": 50.0,
+		"gridSubdivision": 1.0,
+		"snapCenter": false
+	}
+	
+	"Black Fire)": {
+		"model": "FireVent Black",
+		"type": "deco",
+		"price": 50.0,
+		"gridSubdivision": 1.0,
+		"snapCenter": false
+	}
+	
+	"White Fire)": {
+		"model": "FireVent White",
+		"type": "deco",
+		"price": 50.0,
+		"gridSubdivision": 1.0,
+		"snapCenter": false
+	}
+	
+	"Light Blue Fire)": {
+		"model": "FireVent LightBlue",
+		"type": "deco",
+		"price": 50.0,
+		"gridSubdivision": 1.0,
+		"snapCenter": false
+	}
+}
