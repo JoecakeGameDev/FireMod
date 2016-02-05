@@ -3,7 +3,7 @@
 		"model": "FireVent 1",
 		"type": "deco",
 		"price": 40.0,
-		"heightDelta": 1.0,
+		"heightDelta": 0.5,
 		"gridSubdivision": 4.0,
 		"snapCenter": false
 	}
@@ -12,7 +12,7 @@
 		"model": "FireVent 2",
 		"type": "deco",
 		"price": 60.0,
-		"heightDelta": 1.0,
+		"heightDelta": 0.5,
 		"gridSubdivision": 4.0,
 		"snapCenter": false
 	}
@@ -21,7 +21,7 @@
 		"model": "FireVent 3",
 		"type": "deco",
 		"price": 60.0,
-		"heightDelta": 1.0,
+		"heightDelta": 0.5,
 		"gridSubdivision": 4.0,
 		"snapCenter": false
 	}
@@ -30,7 +30,7 @@
 		"model": "SmokeVent 1",
 		"type": "deco",
 		"price": 60.0,
-		"heightDelta": 1.0,
+		"heightDelta": 0.5,
 		"gridSubdivision": 4.0,
 		"snapCenter": false
 	}
@@ -39,7 +39,7 @@
 		"model": "SmokeVent 2",
 		"type": "deco",
 		"price": 60.0,
-		"heightDelta": 1.0,
+		"heightDelta": 0.5,
 		"gridSubdivision": 4.0,
 		"snapCenter": false
 	}
@@ -48,7 +48,7 @@
 		"model": "CampFire",
 		"type": "deco",
 		"price": 60.0,
-		"heightDelta": 1.0,
+		"heightDelta": 0.5,
 		"gridSubdivision": 1.0,
 		"snapCenter": false
 	}
@@ -57,7 +57,7 @@
 		"model": "SmokeMachine",
 		"type": "deco",
 		"price": 120.0,
-		"heightDelta": 1.0,
+		"heightDelta": 0.5,
 		"gridSubdivision": 1.0,
 		"snapCenter": false
 	}
@@ -66,7 +66,7 @@
 		"model": "FireVent Acid",
 		"type": "deco",
 		"price": 60.0,
-		"heightDelta": 1.0,
+		"heightDelta": 0.5,
 		"gridSubdivision": 1.0,
 		"snapCenter": false
 	}
@@ -75,7 +75,7 @@
 		"model": "SmokeVent Pulse",
 		"type": "deco",
 		"price": 50.0,
-		"heightDelta": 1.0,
+		"heightDelta": 0.5,
 		"gridSubdivision": 1.0,
 		"snapCenter": false
 	}
@@ -84,7 +84,7 @@
 		"model": "FireVent Copper",
 		"type": "deco",
 		"price": 50.0,
-		"heightDelta": 1.0,
+		"heightDelta": 0.5,
 		"gridSubdivision": 1.0,
 		"snapCenter": false
 	}
@@ -93,7 +93,7 @@
 		"model": "FireVent Sodium",
 		"type": "deco",
 		"price": 50.0,
-		"heightDelta": 1.0,
+		"heightDelta": 0.5,
 		"gridSubdivision": 1.0,
 		"snapCenter": false
 	}
@@ -102,7 +102,7 @@
 		"model": "FireVent Lithium",
 		"type": "deco",
 		"price": 50.0,
-		"heightDelta": 1.0,
+		"heightDelta": 0.5,
 		"gridSubdivision": 1.0,
 		"snapCenter": false
 	}
@@ -111,7 +111,7 @@
 		"model": "FireVent Potasium",
 		"type": "deco",
 		"price": 50.0,
-		"heightDelta": 1.0,
+		"heightDelta": 0.5,
 		"gridSubdivision": 1.0,
 		"snapCenter": false
 	}
@@ -120,7 +120,7 @@
 		"model": "FireVent Black",
 		"type": "deco",
 		"price": 50.0,
-		"heightDelta": 1.0,
+		"heightDelta": 0.5,
 		"gridSubdivision": 1.0,
 		"snapCenter": false
 	}
@@ -129,7 +129,16 @@
 		"model": "FireVent White",
 		"type": "deco",
 		"price": 50.0,
-		"heightDelta": 1.0,
+		"heightDelta": 0.5,
+		"gridSubdivision": 1.0,
+		"snapCenter": false
+	}
+	
+	"Pink Fire": {
+		"model": "FireVent Pink",
+		"type": "deco",
+		"price": 50.0,
+		"heightDelta": 0.5,
 		"gridSubdivision": 1.0,
 		"snapCenter": false
 	}
@@ -138,7 +147,7 @@
 		"model": "FireVent LightBlue",
 		"type": "deco",
 		"price": 50.0,
-		"heightDelta": 1.0,
+		"heightDelta": 0.5,
 		"gridSubdivision": 1.0,
 		"snapCenter": false
 	}

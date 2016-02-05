@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 2360215294
+CRC: 2734933448
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 73bf2de777dfa9e68a18602585efc5c2
+    Hash: 56b26bf307198de0a794c05bfd761da4
   TypeTreeHash:
     serializedVersion: 2
-    Hash: b2e2ad5ce6e6f6f5b1b4fa2262636087
+    Hash: 1027e746991545fc8c144f365edf4594
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -38,6 +38,7 @@ Assets:
 - Assets/Custom Scenery/FireVent Potasium.prefab
 - Assets/Custom Scenery/FireVent LightBlue.prefab
 - Assets/Custom Scenery/SmokeVent Pulse.prefab
+- Assets/Custom Scenery/FireVent Pink.prefab
 - Assets/Custom Scenery/CampFire.prefab
 - Assets/Custom Scenery/FireVent Sodium.prefab
 - Assets/Custom Scenery/FireVent 3.prefab
